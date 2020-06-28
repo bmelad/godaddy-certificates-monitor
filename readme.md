@@ -8,7 +8,7 @@ So, the GoDaddy guys published an API for those things (WARNING: v1 is totally b
 
 - First, create a new API Key (for production environment) at this page (after login): https://developer.godaddy.com/keys
 
-- **Second, Edit the script and set the relevant values at the settings section::**
+- Second, Edit the script and set the relevant values at the settings section::
   - shopperId: is the number you login with (also appears in the account settings page).
   - apiKey: The API key you've got at the first step.
   - apiSecret: The API secret you've got at the first step.
@@ -17,3 +17,5 @@ So, the GoDaddy guys published an API for those things (WARNING: v1 is totally b
   - smtpServer: The hostname or ip address of your smtp server.
   - emailSender: The sender email address of the report email.
   - emailRecipients: Comma-separated email addresses list of the report's recipients.
+  
+- Third, schedule that script according to your needs.
